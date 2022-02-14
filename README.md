@@ -26,13 +26,13 @@ Para esta abordagem o algoritimo k-means foi escolhido. Utilizamos o gráfico de
 
 Possuímos 3 grupos bem equilibrados quanto ao número de clientes em cada um. Podemos ver no gráfico abaixo:
 
-<p align="left">
+<p align="center">
   <img src="https://github.com/leorviana/segmentacao_de_clientes_2/blob/main/images/cluster_distribution.png">
 </p>
 
 Abaixo, utilizamos o modelo de redução de dimensionalidade **T-SNE** para conseguirmos visualizar os agrupamentos em 2D:
 
-<p align="left">
+<p align="center">
   <img src="https://github.com/leorviana/segmentacao_de_clientes_2/blob/main/images/tsne_graph.png">
 </p>
 
@@ -42,7 +42,7 @@ Podemos aqui visualizar como os agrupamentos estão um em relação ao outro e s
 
 ### Local de Compra X Grupos
 
-<p align="left">
+<p align="center">
   <img src="https://github.com/leorviana/segmentacao_de_clientes_2/blob/main/images/local_compra.png">
 </p>
 
