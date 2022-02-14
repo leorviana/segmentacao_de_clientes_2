@@ -4,7 +4,7 @@ A empresa All In é uma empresa de franquias Delicatesses. Delicatesse é uma lo
 Os principais produtos da All In são vinhos, carnes, certos peixes, doces e guloseimas e o diferencial, você pode comprar certas peças de ouro.
 <p align="center">
   <img src="https://portaldoqueijo.com.br/site/wp-content/uploads/2018/04/combina%C3%A7%C3%A3o-perfeita-queijos-e-vinhos.jpg">
-</p>ans.
+</p>.
 
 # Problema de Negócio
 
@@ -26,14 +26,14 @@ Para esta abordagem o algoritimo k-means foi escolhido. Utilizamos o gráfico de
 
 Possuímos 3 grupos bem equilibrados quanto ao número de clientes em cada um. Podemos ver no gráfico abaixo:
 
-<p align="center">
-  <img src="">
+<p align="left">
+  <img src="https://github.com/leorviana/segmentacao_de_clientes_2/blob/main/images/cluster_distribution.png">
 </p>
 
 Abaixo, utilizamos o modelo de redução de dimensionalidade **T-SNE** para conseguirmos visualizar os agrupamentos em 2D:
 
-<p align="center">
-  <img src="">
+<p align="left">
+  <img src="https://github.com/leorviana/segmentacao_de_clientes_2/blob/main/images/tsne_graph.png">
 </p>
 
 Podemos aqui visualizar como os agrupamentos estão um em relação ao outro e sua separação.
@@ -42,8 +42,8 @@ Podemos aqui visualizar como os agrupamentos estão um em relação ao outro e s
 
 ### Local de Compra X Grupos
 
-<p align="center">
-  <img src="">
+<p align="left">
+  <img src="https://github.com/leorviana/segmentacao_de_clientes_2/blob/main/images/local_compra.png">
 </p>
 
 1. Os 3 grupos criados compram mais ou menos igual pela internet, apesar de que o cluster 0 se sobressai.
@@ -52,8 +52,8 @@ Podemos aqui visualizar como os agrupamentos estão um em relação ao outro e s
 
 ### Frequência e Gasto de Cada Grupo
 
-<p align="center">
-  <img src="">
+<p align="left">
+  <img src="https://github.com/leorviana/segmentacao_de_clientes_2/blob/main/images/frequencia_compras.png">
 </p>
 
 Os clientes do cluster 2 são os mais frequentes, seguidos do cluster 0 e por fim do cluster 1.
@@ -62,22 +62,22 @@ Os clientes do cluster 2 são os mais frequentes, seguidos do cluster 0 e por fi
 Aqui, vamos olhar para os itens que cada grupo costuma comprar.
 
 #### Cluster 0
-<p align="center">
-  <img src="">
+<p align="left">
+  <img src="https://github.com/leorviana/segmentacao_de_clientes_2/blob/main/images/itens_cluster_0.png">
 </p>
 
 - Clientes que amam vinho, mas compram muito pouco de qualquer outra mercadoria.
 
 #### Cluster 1
-<p align="center">
-  <img src="">
+<p align="left">
+  <img src="https://github.com/leorviana/segmentacao_de_clientes_2/blob/main/images/itens_cluster_1.png">
 </p>
 
 - Possuem um padrão de compra mais regular, suas compras são diversificadas, bem mais que os outros grupos.
 
 #### Cluster 2
-<p align="center">
-  <img src="">
+<p align="left">
+  <img src="https://github.com/leorviana/segmentacao_de_clientes_2/blob/main/images/itens_cluster_2.png">
 </p>
 
 - Clientes que compram bastante vinho e carne, mas muito pouco das outras mercadorias ainda.
@@ -85,7 +85,7 @@ Aqui, vamos olhar para os itens que cada grupo costuma comprar.
 
 ## Concluindo a Análise
 
-Podemos explicar os 3 grupos criados a partir das seguintes características:
+Podemos explicar os 3 agrupamentos naturais descobertos a partir das seguintes características:
 
 **Cluster 0**: Clientes com uma frequência mediana que compram muito vinho, principalmente pela loja fisíca e pela internet.
 
@@ -97,7 +97,7 @@ Podemos explicar os 3 grupos criados a partir das seguintes características:
 
 # Conclusão
 
-Após todo o processo conseguimos separar nossos clientes devidamente entre 3 grupos e agora somos capazes de se comunicar melhor com cada tipo de cliente e elevar os lucros, reduzir custos, reter melhor os clientes e gerir campanhas personalizadas.
+Após todo o processo conseguimos identificar e analisar nossos clientes devidamente entre os 3 grupos naturais que eles se encontram divididos e agora somos capazes de se comunicar melhor com cada tipo de cliente e elevar os lucros, reduzir custos, reter melhor os clientes e gerir campanhas personalizadas.
 
 # Referências
 
